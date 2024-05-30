@@ -1,0 +1,18 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/6658a4b59fd63563116fdb02
+
+
+###
+POST  http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name" : "demo person",
+    "subscribedToChannel" : "web deb simplifed"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/6658a4b59fd63563116fdb02
